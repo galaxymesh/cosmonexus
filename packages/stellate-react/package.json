@@ -1,0 +1,21 @@
+{
+  "name": "@cosmonexus/stellate-react",
+  "version": "0.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@swc/core": "^1.3.101",
+    "tsup": "^8.0.1",
+    "typescript": "^5.4.0-dev.20231218"
+  },
+  "peerDependencies": {
+    "@cosmonexus/stellate": "workspace:^"
+  },
+  "peerDependenciesMeta": {
+    "@cosmonexus/stellate": {
+      "optional": true
+    }
+  },
+  "optionalDependencies": {
+    "@cosmonexus/stellate": "workspace:^"
+  }
+}

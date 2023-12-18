@@ -1,0 +1,27 @@
+{
+    "extends": [
+        "../../tsconfig.json"
+    ],
+    "compilerOptions": {
+        "outDir": "./dist",
+    },
+    "include": [
+        "**/*.ts",
+        "**/*.tsx"
+    ],
+    "exclude": [
+        "dist/*"
+    ],
+    "references": [
+        {
+            "path": {
+                "@cosmonexus/codemirror": [
+                    "../codemirror/tsconfig.json"
+                ],
+                "@cosmonexus/stellate": [
+                    "../stellate/tsconfig.json"
+                ]
+            }
+        }
+    ]
+}
