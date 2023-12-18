@@ -5,6 +5,12 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"@cosmonexus/codemirror@workspace:packages/codemirror":
+  version: 0.0.0-use.local
+  resolution: "@cosmonexus/codemirror@workspace:packages/codemirror"
+  languageName: unknown
+  linkType: soft
+
 "cosmonexus@workspace:.":
   version: 0.0.0-use.local
   resolution: "cosmonexus@workspace:."
