@@ -1,1 +1,1 @@
-# cosmonexus
+CosmoNexus, an umbrella monorepo for multiple usage for Galaxy Mesh, a future service mesh repo.
