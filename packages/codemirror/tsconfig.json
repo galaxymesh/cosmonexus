@@ -3,7 +3,19 @@
     "compilerOptions": {
         "outDir": "./dist",
         "composite": true,
-        "strictNullChecks": true
+        "strictNullChecks": true,
+        "baseUrl": ".",
+        "paths": {
+            "@cosmonexus/codemirror/core": [
+                "core/index.ts"
+            ],
+            "@cosmonexus/codemirror/state": [
+                "state/index.ts"
+            ],
+            "@cosmonexus/codemirror/view": [
+                "view/index.ts"
+            ]
+        }
     },
     "include": ["."],
     "exclude": ["dist", "build", "node_modules"]

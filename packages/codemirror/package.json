@@ -4,7 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build:core": "tsup \"core/index.ts\" --out-dir core/dist"
+    "build:core": "tsup \"core/index.ts\" --out-dir core/dist",
+    "build:state": "tsup \"state/index.ts\" --out-dir state/dist",
+    "build:view": "tsup \"view/index.ts\" --out-dir view/dist"
   },
   "dependencies": {
     "codemirror": "^6.0.1"
@@ -18,5 +20,31 @@
     "types": "./core/dist/index.d.ts",
     "import": "./core/dist/index.js",
     "require": "./core/dist/index.cjs"
+  },
+  "./state": {
+    "types": "./state/dist/index.d.ts",
+    "import": "./state/dist/index.js",
+    "require": "./state/dist/index.cjs"
+  },
+  "./view": {
+    "types": "./view/dist/index.d.ts",
+    "import": "./view/dist/index.js",
+    "require": "./view/dist/index.cjs"
+  },
+  "optionalDependencies": {
+    "@codemirror/state": "^6.3.3",
+    "@codemirror/view": "^6.22.3"
+  },
+  "peerDependencies": {
+    "@codemirror/state": "*",
+    "@codemirror/view": "*"
+  },
+  "peerDependenciesMeta": {
+    "@codemirror/state": {
+      "optional": true
+    },
+    "@codemirror/view": {
+      "optional": true
+    }
   }
 }

@@ -25,6 +25,15 @@
             "@cosmonexus/codemirror": [
                 "packages/codemirror"
             ],
+            "@cosmonexus/codemirror/core": [
+                "packages/codemirror/core"
+            ],
+            "@cosmonexus/codemirror/state": [
+                "packages/codemirror/state"
+            ],
+            "@cosmonexus/codemirror/view": [
+                "packages/codemirror/view"
+            ],
             "@cosmonexus/stellate": [
                 "packages/stellate"
             ],
